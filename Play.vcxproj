@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53A753C5-39BD-497C-B7F7-1199AE70C2E8}</ProjectGuid>
+    <RootNamespace>Play</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\libjpeg;$(SolutionDir)\Dependencies\libtiff;$(SolutionDir)\Dependencies\libpng;$(SolutionDir)\Dependencies\zlib;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <PrecompiledHeader />
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;libtiff.lib;libpng.lib;libjpeg.lib;zlib.lib;Ws2_32.lib;Version.lib;Winmm.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\libtiff\$(Configuration);$(SolutionDir)\Dependencies\libjpeg\$(Configuration);$(SolutionDir)\Dependencies\libpng\$(Configuration);$(SolutionDir)\Dependencies\zlib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\libjpeg;$(SolutionDir)\Dependencies\libtiff;$(SolutionDir)\Dependencies\libpng;$(SolutionDir)\Dependencies\zlib;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <PrecompiledHeader />
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;libtiff.lib;libpng.lib;libjpeg.lib;zlib.lib;Ws2_32.lib;Version.lib;Winmm.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\libtiff\$(Configuration);$(SolutionDir)\Dependencies\libjpeg\$(Configuration);$(SolutionDir)\Dependencies\libpng\$(Configuration);$(SolutionDir)\Dependencies\zlib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Containers\Array.cpp" />
+    <ClCompile Include="Containers\Container.cpp" />
+    <ClCompile Include="Containers\Hashtable.cpp" />
+    <ClCompile Include="Containers\List.cpp" />
+    <ClCompile Include="Events\Event.cpp" />
+    <ClCompile Include="Events\EventSender.cpp" />
+    <ClCompile Include="Events\Message.cpp" />
+    <ClCompile Include="Math\Math.cpp" />
+    <ClCompile Include="Native\Gdi.cpp" />
+    <ClCompile Include="Native\Gdi_LeakTest.cpp" />
+    <ClCompile Include="Native\Native.cpp" />
+    <ClCompile Include="Native\Resource.cpp" />
+    <ClCompile Include="Operators\Connection.cpp" />
+    <ClCompile Include="Operators\Input.cpp" />
+    <ClCompile Include="Operators\InputArray.cpp" />
+    <ClCompile Include="Operators\InputArray_Events.cpp" />
+    <ClCompile Include="Operators\Operator.cpp" />
+    <ClCompile Include="Operators\Operator_Events.cpp" />
+    <ClCompile Include="Operators\Output.cpp" />
+    <ClCompile Include="Operators\Output_Events.cpp" />
+    <ClCompile Include="Operators\OutputArray.cpp" />
+    <ClCompile Include="Operators\Image\OpColor\OpColor.cpp" />
+    <ClCompile Include="Operators\Image\OpCrop\OpCrop.cpp" />
+    <ClCompile Include="Operators\Image\OpCrop\OpCrop_Events.cpp" />
+    <ClCompile Include="Operators\Image\OpCrop\OpCrop_Resources.cpp" />
+    <ClCompile Include="Operators\Image\OpResize\OpResize.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpResize\OpResize_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpResize\OpResize_Resources.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpNoise\OpNoise.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpOpacity\OpOpacity.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpFilter\OpFilter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\OpPaint.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\OpPaint_Events.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Brush.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Brush_Serialize.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Brush_Stroke.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\BrushParameter.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\BrushStroke.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\BrushValue.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Noise.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Painter.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\StrokePoint.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Controls\BrushControl.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Controls\BrushControl_Events.cpp" />
+    <ClCompile Include="Operators\Image\OpPaint\Controls\BrushControl_Resources.cpp" />
+    <ClCompile Include="Operators\Image\OpGradient\OpGradient.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpGradient\OpGradient_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpGradient\OpGradient_Render.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpImage\OpImage.cpp" />
+    <ClCompile Include="Operators\Image\OpImage\OpImage_Events.cpp" />
+    <ClCompile Include="Operators\Image\OpMultiply\OpMultiply.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpOver\OpOver.cpp" />
+    <ClCompile Include="Operators\Image\OpMove\OpMove.cpp" />
+    <ClCompile Include="Operators\Image\OpMove\OpMove_Events.cpp" />
+    <ClCompile Include="Operators\Image\OpShape\OpShape.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\OpShape_Event.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\OpShape_Resources.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ControlTool.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ControlTool_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ControlTool_Resources.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\CreateTool.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\CreateTool_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\CreateTool_Resources.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ShapeTool.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ShapeTool_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ShapeTool_Resources.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\TransformTool.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\TransformTool_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\TransformTool_Resources.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpAdd\OpAdd.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpSubtract\OpSubtract.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpBrightness\OpBrightness.cpp" />
+    <ClCompile Include="Operators\Image\OpGamma\OpGamma.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpSaturation\OpSaturation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpContrast\OpContrast.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPremultiply\OpPremultiply.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpUnpremultiply\OpUnpremultiply.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpThreshold\OpThreshold.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpColorRange\OpChromaRange.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpHSV\OpHSV.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\OpChannels.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\OpChannels_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\RewireControl.cpp" />
+    <ClCompile Include="Operators\Image\OpChannels\RewireControl_Events.cpp" />
+    <ClCompile Include="Operators\Text\OpText\OpText.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Operators\OpFile\OpFile.cpp" />
+    <ClCompile Include="Operators\OpFile\OpFile_Events.cpp" />
+    <ClCompile Include="Operators\OpNull\OpNull.cpp" />
+    <ClCompile Include="Operators\Tree\Tree.cpp" />
+    <ClCompile Include="Operators\Tree\Tree_Events.cpp" />
+    <ClCompile Include="Operators\Actions\ActConnect.cpp" />
+    <ClCompile Include="Operators\Actions\ActCreateOp.cpp" />
+    <ClCompile Include="Operators\Actions\ActDeleteOps.cpp" />
+    <ClCompile Include="Operators\Actions\ActDisconnect.cpp" />
+    <ClCompile Include="Operators\Actions\ActMoveOps.cpp" />
+    <ClCompile Include="Serialization\Serializable.cpp" />
+    <ClCompile Include="Types\Object.cpp" />
+    <ClCompile Include="Types\ObjectPool.cpp" />
+    <ClCompile Include="Types\ObjectPool_Events.cpp" />
+    <ClCompile Include="Types\Reference.cpp" />
+    <ClCompile Include="Types\Type.cpp" />
+    <ClCompile Include="Types\Geometric\Align.cpp" />
+    <ClCompile Include="Types\Geometric\Curve.cpp" />
+    <ClCompile Include="Types\Geometric\Curve_Point.cpp" />
+    <ClCompile Include="Types\Geometric\FPoint.cpp" />
+    <ClCompile Include="Types\Geometric\FRect.cpp" />
+    <ClCompile Include="Types\Geometric\FSize.cpp" />
+    <ClCompile Include="Types\Geometric\Matrix33.cpp" />
+    <ClCompile Include="Types\Geometric\ParamCurve.cpp" />
+    <ClCompile Include="Types\Geometric\ParamCurve_Point.cpp" />
+    <ClCompile Include="Types\Geometric\Point.cpp" />
+    <ClCompile Include="Types\Geometric\Poly.cpp" />
+    <ClCompile Include="Types\Geometric\Rect.cpp" />
+    <ClCompile Include="Types\Geometric\Region.cpp" />
+    <ClCompile Include="Types\Geometric\Shape.cpp" />
+    <ClCompile Include="Types\Geometric\Size.cpp" />
+    <ClCompile Include="Types\Geometric\Vector3.cpp" />
+    <ClCompile Include="Types\Basic\String.cpp" />
+    <ClCompile Include="Types\Basic\String_Serialize.cpp" />
+    <ClCompile Include="Types\Color\Color.cpp" />
+    <ClCompile Include="Types\Color\Color8.cpp" />
+    <ClCompile Include="Types\Color\Gradient.cpp" />
+    <ClCompile Include="Types\Graphics\Font.cpp" />
+    <ClCompile Include="Types\Graphics\GdiImage.cpp" />
+    <ClCompile Include="Types\Graphics\GdiImage8.cpp" />
+    <ClCompile Include="Types\Graphics\GdiImage8_Convert.cpp" />
+    <ClCompile Include="Types\Graphics\GdiImage8_Serialize.cpp" />
+    <ClCompile Include="Types\Graphics\GdiImage_Convert.cpp" />
+    <ClCompile Include="Types\Graphics\Image.cpp" />
+    <ClCompile Include="Types\Graphics\Image8.cpp" />
+    <ClCompile Include="Types\Graphics\Image8_Convert.cpp" />
+    <ClCompile Include="Types\Graphics\Image8_Serialize.cpp" />
+    <ClCompile Include="Types\Graphics\Skin.cpp" />
+    <ClCompile Include="Types\Graphics\Space.cpp" />
+    <ClCompile Include="Types\Graphics\Space_Tile.cpp" />
+    <ClCompile Include="Threads\Thread.cpp" />
+    <ClCompile Include="Threads\ThreadLock.cpp" />
+    <ClCompile Include="Timing\Timer.cpp" />
+    <ClCompile Include="Controls\Control.cpp" />
+    <ClCompile Include="Controls\Control_Events.cpp" />
+    <ClCompile Include="Controls\Window\Window.cpp" />
+    <ClCompile Include="Controls\Window\Window_Native.cpp" />
+    <ClCompile Include="Controls\Window\Window_Reactions.cpp" />
+    <ClCompile Include="Controls\Window\WindowFrame.cpp" />
+    <ClCompile Include="Controls\Grip\Grip.cpp" />
+    <ClCompile Include="Controls\Grip\Grip_Events.cpp" />
+    <ClCompile Include="Controls\Button\Button.cpp" />
+    <ClCompile Include="Controls\Button\Button_Reactions.cpp" />
+    <ClCompile Include="Controls\Button\Button_Resources.cpp" />
+    <ClCompile Include="Controls\TextControl\TextControl.cpp" />
+    <ClCompile Include="Controls\Views\View.cpp" />
+    <ClCompile Include="Controls\Views\TreeView\TreeView.cpp" />
+    <ClCompile Include="Controls\Views\TreeView\TreeView_Ops.cpp" />
+    <ClCompile Include="Controls\Views\TreeView\TreeView_Reactions.cpp" />
+    <ClCompile Include="Controls\Views\TreeView\TreeView_Resources.cpp" />
+    <ClCompile Include="Controls\Views\ImageView\ImageView.cpp" />
+    <ClCompile Include="Controls\Views\ImageView\ImageView_Events.cpp" />
+    <ClCompile Include="Controls\Views\ImageView\ImageView_Resources.cpp" />
+    <ClCompile Include="Controls\Views\NavControl\NavControl.cpp" />
+    <ClCompile Include="Controls\Views\NavControl\NavControl_Events.cpp" />
+    <ClCompile Include="Controls\Views\PropertyView\PropertyView.cpp" />
+    <ClCompile Include="Controls\Views\PropertyView\PropertyView_Events.cpp" />
+    <ClCompile Include="Controls\Views\OpView\OpView.cpp" />
+    <ClCompile Include="Controls\Views\FileView\FileControl.cpp" />
+    <ClCompile Include="Controls\Views\FileView\FileControl_Events.cpp" />
+    <ClCompile Include="Controls\Views\FileView\FileView.cpp" />
+    <ClCompile Include="Controls\Views\FileView\FileView_Events.cpp" />
+    <ClCompile Include="Controls\Views\CurveView\CurveView.cpp" />
+    <ClCompile Include="Controls\Views\CurveView\CurveView_Events.cpp" />
+    <ClCompile Include="Controls\Views\ShapeView\ShapeView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\ShapeView\ShapeView_Events.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\Layout.cpp" />
+    <ClCompile Include="Controls\Layout\Layout_Events.cpp" />
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout.cpp" />
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Cell.cpp" />
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Cell_Reactions.cpp" />
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Column.cpp" />
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Reactions.cpp" />
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Row.cpp" />
+    <ClCompile Include="Controls\Layout\LineLayout\LineLayout.cpp" />
+    <ClCompile Include="Controls\Layout\LineLayout\LineLayout_Events.cpp" />
+    <ClCompile Include="Controls\Layout\Spacer\Spacer.cpp" />
+    <ClCompile Include="Controls\Layout\Spacer\Spacer_Events.cpp" />
+    <ClCompile Include="Controls\Layout\ScrollLayout\ScrollLayout.cpp" />
+    <ClCompile Include="Controls\Layout\ScrollLayout\ScrollLayout_Events.cpp" />
+    <ClCompile Include="Controls\Label\Label.cpp" />
+    <ClCompile Include="Controls\Label\Label_Events.cpp" />
+    <ClCompile Include="Controls\ImageControl\ImageControl.cpp" />
+    <ClCompile Include="Controls\ImageControl\ImageControl_Events.cpp" />
+    <ClCompile Include="Controls\OpList\OpButton.cpp" />
+    <ClCompile Include="Controls\OpList\OpButton_Events.cpp" />
+    <ClCompile Include="Controls\OpList\OpList.cpp" />
+    <ClCompile Include="Controls\OpList\OpList_Events.cpp" />
+    <ClCompile Include="Controls\HoverButton\HoverButton.cpp" />
+    <ClCompile Include="Controls\HoverButton\HoverButton_Reactions.cpp" />
+    <ClCompile Include="Controls\HoverButton\HoverButton_Resources.cpp" />
+    <ClCompile Include="Controls\ValueBox\Valuebox.cpp" />
+    <ClCompile Include="Controls\ValueBox\Valuebox_Events.cpp" />
+    <ClCompile Include="Controls\ValueBox\Valuebox_Resources.cpp" />
+    <ClCompile Include="Controls\Textbox\Textbox.cpp" />
+    <ClCompile Include="Controls\Textbox\Textbox_Clipboard.cpp" />
+    <ClCompile Include="Controls\Textbox\Textbox_Events.cpp" />
+    <ClCompile Include="Controls\Textbox\Textbox_Keys.cpp" />
+    <ClCompile Include="Controls\Textbox\Textbox_Resources.cpp" />
+    <ClCompile Include="Controls\ColorFan\ColorFan.cpp" />
+    <ClCompile Include="Controls\ColorFan\ColorFan_Events.cpp" />
+    <ClCompile Include="Controls\ListButton\ListButton.cpp" />
+    <ClCompile Include="Controls\ListButton\ListButton_Events.cpp" />
+    <ClCompile Include="Controls\ListButton\ListButton_Resources.cpp" />
+    <ClCompile Include="Controls\ListButton\Strip\Strip.cpp" />
+    <ClCompile Include="Controls\ListButton\Strip\Strip_Events.cpp" />
+    <ClCompile Include="Controls\ColorButton\ColorButton.cpp" />
+    <ClCompile Include="Controls\ColorButton\ColorButton_Events.cpp" />
+    <ClCompile Include="Controls\ColorButton\ColorButton_Resources.cpp" />
+    <ClCompile Include="Devices\Keyboard\Key.cpp" />
+    <ClCompile Include="Devices\Keyboard\KeyCombo.cpp" />
+    <ClCompile Include="Devices\Mouse\Cursor.cpp" />
+    <ClCompile Include="Devices\Mouse\Mouse.cpp" />
+    <ClCompile Include="Devices\Screen\Screen.cpp" />
+    <ClCompile Include="Devices\Tablet\Tablet.cpp" />
+    <ClCompile Include="Devices\Tablet\Tablet_DLL.cpp" />
+    <ClCompile Include="Users\User.cpp" />
+    <ClCompile Include="Users\UserMetric.cpp" />
+    <ClCompile Include="Users\UserMetric_Events.cpp" />
+    <ClCompile Include="Clipboard\Clipboard.cpp" />
+    <ClCompile Include="Clipboard\Clipboard_Data.cpp" />
+    <ClCompile Include="System\App.cpp" />
+    <ClCompile Include="System\System.cpp" />
+    <ClCompile Include="Files\Directory.cpp" />
+    <ClCompile Include="Files\File.cpp" />
+    <ClCompile Include="Files\FileHandler.cpp" />
+    <ClCompile Include="Files\Formats\FileFormat.cpp" />
+    <ClCompile Include="Files\Formats\Image\FileFormat_Jpeg.cpp" />
+    <ClCompile Include="Files\Formats\Image\FileFormat_Png.cpp" />
+    <ClCompile Include="Files\Formats\Image\FileFormat_Tiff.cpp" />
+    <ClCompile Include="Files\Formats\Data\FileFormat_Data.cpp" />
+    <ClCompile Include="Files\Formats\Text\FileFormat_Text.cpp" />
+    <ClCompile Include="Errors\Error.cpp" />
+    <ClCompile Include="Graphics\Graphics.cpp" />
+    <ClCompile Include="Graphics\Graphics_Antialias.cpp" />
+    <ClCompile Include="Graphics\Graphics_Bezier.cpp" />
+    <ClCompile Include="Graphics\Graphics_Gdi.cpp" />
+    <ClCompile Include="Graphics\Graphics_Image.cpp" />
+    <ClCompile Include="Graphics\Graphics_Image_GdiImage.cpp" />
+    <ClCompile Include="Graphics\Graphics_Image_Image8.cpp" />
+    <ClCompile Include="Graphics\Graphics_Line.cpp" />
+    <ClCompile Include="Graphics\Graphics_Line_GdiImage.cpp" />
+    <ClCompile Include="Graphics\Graphics_Line_Image8.cpp" />
+    <ClCompile Include="Graphics\Graphics_MarchingAnts.cpp" />
+    <ClCompile Include="Graphics\Graphics_Pixel.cpp" />
+    <ClCompile Include="Graphics\Graphics_Poly.cpp" />
+    <ClCompile Include="Graphics\Graphics_Poly_GdiImage.cpp" />
+    <ClCompile Include="Graphics\Graphics_Poly_Image8.cpp" />
+    <ClCompile Include="Graphics\Graphics_Rect.cpp" />
+    <ClCompile Include="Graphics\Graphics_Rect_GdiImage.cpp" />
+    <ClCompile Include="Graphics\Graphics_Rect_Image8.cpp" />
+    <ClCompile Include="Graphics\Graphics_Scanline.cpp" />
+    <ClCompile Include="Graphics\Graphics_Shape.cpp" />
+    <ClCompile Include="Graphics\Graphics_Shape_GdiImage.cpp" />
+    <ClCompile Include="Graphics\Graphics_Shape_Image8.cpp" />
+    <ClCompile Include="Graphics\Graphics_Skin.cpp" />
+    <ClCompile Include="Graphics\Graphics_Static.cpp" />
+    <ClCompile Include="Graphics\Graphics_Subpixel.cpp" />
+    <ClCompile Include="Graphics\Graphics_Text.cpp" />
+    <ClCompile Include="Graphics\Graphics_Text_GdiImage.cpp" />
+    <ClCompile Include="Interface\PlayWindow\PlayWindow.cpp" />
+    <ClCompile Include="Interface\PlayWindow\PlayWindow_Reactions.cpp" />
+    <ClCompile Include="Interface\PlayWindow\PlayWindow_Resources.cpp" />
+    <ClCompile Include="Interface\Sidebar\Sidebar.cpp" />
+    <ClCompile Include="Interface\Sidebar\Sidebar_Events.cpp" />
+    <ClCompile Include="Interface\Sidebar\Sidebar_Resources.cpp" />
+    <ClCompile Include="Animation\Animation.cpp" />
+    <ClCompile Include="Animation\AnimationCurve.cpp" />
+    <ClCompile Include="Animation\Animator.cpp" />
+    <ClCompile Include="Animation\Animator_Events.cpp" />
+    <ClCompile Include="Animation\FloatAnimation\FloatAnimation.cpp" />
+    <ClCompile Include="Animation\IntAnimation\IntAnimation.cpp" />
+    <ClCompile Include="Animation\PointAnimation\PointAnimation.cpp" />
+    <ClCompile Include="Properties\Property.cpp" />
+    <ClCompile Include="Properties\Property_Reactions.cpp" />
+    <ClCompile Include="Properties\PropertyContainer.cpp" />
+    <ClCompile Include="Properties\PropertyContainer_Events.cpp" />
+    <ClCompile Include="Properties\IntProperty\ActChangeIntProperty.cpp" />
+    <ClCompile Include="Properties\IntProperty\IntProperty.cpp" />
+    <ClCompile Include="Properties\IntProperty\IntProperty_Events.cpp" />
+    <ClCompile Include="Properties\FloatProperty\FloatProperty.cpp" />
+    <ClCompile Include="Properties\FloatProperty\FloatProperty_Events.cpp" />
+    <ClCompile Include="Properties\TextProperty\TextProperty.cpp" />
+    <ClCompile Include="Properties\TextProperty\TextProperty_Events.cpp" />
+    <ClCompile Include="Properties\ColorProperty\ColorProperty.cpp" />
+    <ClCompile Include="Properties\ColorProperty\ColorProperty_Events.cpp" />
+    <ClCompile Include="Properties\ColorProperty\ColorProperty_Resources.cpp" />
+    <ClCompile Include="Properties\BoolProperty\BoolProperty.cpp" />
+    <ClCompile Include="Properties\BoolProperty\BoolProperty_Events.cpp" />
+    <ClCompile Include="Properties\ListProperty\ListProperty.cpp" />
+    <ClCompile Include="Properties\ListProperty\ListProperty_Events.cpp" />
+    <ClCompile Include="Properties\GradientProperty\GradientProperty.cpp" />
+    <ClCompile Include="Properties\GradientProperty\GradientProperty_Events.cpp" />
+    <ClCompile Include="Properties\GradientProperty\GradientProperty_Resources.cpp" />
+    <ClCompile Include="Actions\Action.cpp" />
+    <ClCompile Include="Actions\ActionManager.cpp" />
+    <ClCompile Include="Actions\GroupAction.cpp" />
+    <ClCompile Include="Tools\Tool.cpp" />
+    <ClCompile Include="Tools\ToolArray.cpp" />
+    <ClCompile Include="Tools\ToolArray_Events.cpp" />
+    <ClCompile Include="Data\Data.cpp" />
+    <ClCompile Include="Data\DataArray.cpp" />
+    <ClCompile Include="Data\Tag.cpp" />
+    <ClCompile Include="Play.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Containers\Array.h" />
+    <ClInclude Include="Containers\Container.h" />
+    <ClInclude Include="Containers\Hashtable.h" />
+    <ClInclude Include="Containers\List.h" />
+    <ClInclude Include="Events\Event.h" />
+    <ClInclude Include="Events\EventHandler.h" />
+    <ClInclude Include="Events\EventHandlerBase.h" />
+    <ClInclude Include="Events\EventHandlerMember.h" />
+    <ClInclude Include="Events\EventHandlerStatic.h" />
+    <ClInclude Include="Events\EventSender.h" />
+    <ClInclude Include="Events\Message.h" />
+    <ClInclude Include="Math\Math.h" />
+    <ClInclude Include="Native\_Hinstance.h" />
+    <ClInclude Include="Native\Gdi.h" />
+    <ClInclude Include="Native\Native.h" />
+    <ClInclude Include="Native\Resource.h" />
+    <ClInclude Include="Operators\Connection.h" />
+    <ClInclude Include="Operators\Input.h" />
+    <ClInclude Include="Operators\InputArray.h" />
+    <ClInclude Include="Operators\Operator.h" />
+    <ClInclude Include="Operators\Output.h" />
+    <ClInclude Include="Operators\OutputArray.h" />
+    <CustomBuild Include="Operators\Image\OpColor\OpColor.h" />
+    <CustomBuild Include="Operators\Image\OpCrop\OpCrop.h" />
+    <CustomBuild Include="Operators\Image\OpResize\OpResize.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpNoise\OpNoise.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpOpacity\OpOpacity.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpFilter\OpFilter.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpPaint\OpPaint.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\Brush.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushMessage.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushParameter.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushStroke.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushValue.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\Noise.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\Painter.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\StrokePoint.h" />
+    <ClInclude Include="Operators\Image\OpPaint\Controls\BrushControl.h" />
+    <CustomBuild Include="Operators\Image\OpGradient\OpGradient.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpImage\OpImage.h" />
+    <CustomBuild Include="Operators\Image\OpMultiply\OpMultiply.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpOver\OpOver.h" />
+    <CustomBuild Include="Operators\Image\OpMove\OpMove.h" />
+    <CustomBuild Include="Operators\Image\OpShape\OpShape.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\ControlTool.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\CreateTool.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\ShapeTool.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\TransformTool.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpAdd\OpAdd.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpSubtract\OpSubtract.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpBrightness\OpBrightness.h" />
+    <CustomBuild Include="Operators\Image\OpGamma\OpGamma.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpSaturation\OpSaturation.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpContrast\OpContrast.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpPremultiply\OpPremultiply.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpUnpremultiply\OpUnpremultiply.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpThreshold\OpThreshold.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpColorRange\OpChromaRange.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpHSV\OpHSV.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpChannels\OpChannels.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Operators\Image\OpChannels\RewireControl.h" />
+    <CustomBuild Include="Operators\Text\OpText\OpText.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="Operators\OpFile\OpFile.h" />
+    <CustomBuild Include="Operators\OpNull\OpNull.h" />
+    <ClInclude Include="Operators\Tree\Tree.h" />
+    <ClInclude Include="Operators\Actions\ActConnect.h" />
+    <ClInclude Include="Operators\Actions\ActCreateOp.h" />
+    <ClInclude Include="Operators\Actions\ActDeleteOps.h" />
+    <ClInclude Include="Operators\Actions\ActDisconnect.h" />
+    <ClInclude Include="Operators\Actions\ActMoveOps.h" />
+    <ClInclude Include="Serialization\Serializable.h" />
+    <ClInclude Include="Types\BaseTypes.h" />
+    <ClInclude Include="Types\Object.h" />
+    <ClInclude Include="Types\ObjectPool.h" />
+    <ClInclude Include="Types\Reference.h" />
+    <ClInclude Include="Types\Type.h" />
+    <ClInclude Include="Types\Geometric\Align.h" />
+    <ClInclude Include="Types\Geometric\Curve.h" />
+    <ClInclude Include="Types\Geometric\FPoint.h" />
+    <ClInclude Include="Types\Geometric\FRect.h" />
+    <ClInclude Include="Types\Geometric\FSize.h" />
+    <ClInclude Include="Types\Geometric\Matrix33.h" />
+    <ClInclude Include="Types\Geometric\ParamCurve.h" />
+    <ClInclude Include="Types\Geometric\Point.h" />
+    <ClInclude Include="Types\Geometric\Poly.h" />
+    <ClInclude Include="Types\Geometric\Rect.h" />
+    <ClInclude Include="Types\Geometric\Region.h" />
+    <ClInclude Include="Types\Geometric\Shape.h" />
+    <ClInclude Include="Types\Geometric\Size.h" />
+    <ClInclude Include="Types\Geometric\Vector3.h" />
+    <ClInclude Include="Types\Basic\String.h" />
+    <ClInclude Include="Types\Color\Color.h" />
+    <ClInclude Include="Types\Color\Color8.h" />
+    <ClInclude Include="Types\Color\Gradient.h" />
+    <ClInclude Include="Types\Graphics\Font.h" />
+    <ClInclude Include="Types\Graphics\GdiImage.h" />
+    <ClInclude Include="Types\Graphics\GdiImage8.h" />
+    <ClInclude Include="Types\Graphics\Image.h" />
+    <ClInclude Include="Types\Graphics\Image8.h" />
+    <ClInclude Include="Types\Graphics\Skin.h" />
+    <ClInclude Include="Types\Graphics\Space.h" />
+    <ClInclude Include="Types\Graphics\Space_Tile.h" />
+    <ClInclude Include="Threads\Thread.h" />
+    <ClInclude Include="Threads\ThreadLock.h" />
+    <ClInclude Include="Timing\Timer.h" />
+    <CustomBuild Include="Controls\Control.h" />
+    <CustomBuild Include="Controls\Window\Window.h" />
+    <CustomBuild Include="Controls\Window\WindowFrame.h" />
+    <CustomBuild Include="Controls\Grip\Grip.h" />
+    <ClInclude Include="Controls\Button\Button.h" />
+    <ClInclude Include="Controls\TextControl\TextControl.h" />
+    <ClInclude Include="Controls\Views\View.h" />
+    <ClInclude Include="Controls\Views\TreeView\TreeView.h" />
+    <ClInclude Include="Controls\Views\ImageView\ImageView.h" />
+    <ClInclude Include="Controls\Views\NavControl\NavControl.h" />
+    <ClInclude Include="Controls\Views\PropertyView\PropertyView.h" />
+    <ClInclude Include="Controls\Views\OpView\OpView.h" />
+    <ClInclude Include="Controls\Views\FileView\FileControl.h" />
+    <ClInclude Include="Controls\Views\FileView\FileView.h" />
+    <ClInclude Include="Controls\Views\CurveView\CurveView.h" />
+    <CustomBuild Include="Controls\Views\ShapeView\ShapeView.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Controls\Layout\Layout.h" />
+    <ClInclude Include="Controls\Layout\GridLayout\GridLayout.h" />
+    <ClInclude Include="Controls\Layout\LineLayout\LineLayout.h" />
+    <ClInclude Include="Controls\Layout\Spacer\Spacer.h" />
+    <ClInclude Include="Controls\Layout\ScrollLayout\ScrollLayout.h" />
+    <ClInclude Include="Controls\Label\Label.h" />
+    <ClInclude Include="Controls\ImageControl\ImageControl.h" />
+    <ClInclude Include="Controls\OpList\OpButton.h" />
+    <ClInclude Include="Controls\OpList\OpList.h" />
+    <ClInclude Include="Controls\HoverButton\HoverButton.h" />
+    <ClInclude Include="Controls\ValueBox\Valuebox.h" />
+    <ClInclude Include="Controls\Textbox\Textbox.h" />
+    <ClInclude Include="Controls\ColorFan\ColorFan.h" />
+    <ClInclude Include="Controls\ListButton\ListButton.h" />
+    <ClInclude Include="Controls\ListButton\Strip\Strip.h" />
+    <ClInclude Include="Controls\ColorButton\ColorButton.h" />
+    <ClInclude Include="Devices\Keyboard\Key.h" />
+    <ClInclude Include="Devices\Keyboard\KeyCombo.h" />
+    <ClInclude Include="Devices\Mouse\Cursor.h" />
+    <ClInclude Include="Devices\Mouse\Mouse.h" />
+    <CustomBuild Include="Devices\Screen\Screen.h" />
+    <ClInclude Include="Devices\Tablet\Tablet.h" />
+    <ClInclude Include="Devices\Tablet\Wintab\PKTDEF.H" />
+    <ClInclude Include="Devices\Tablet\Wintab\WINTAB.H" />
+    <ClInclude Include="Devices\Tablet\Wintab\WINTABX.H" />
+    <ClInclude Include="Users\User.h" />
+    <ClInclude Include="Users\UserMetric.h" />
+    <ClInclude Include="Resources\resource.h" />
+    <CustomBuild Include="Clipboard\Clipboard.h" />
+    <ClInclude Include="System\App.h" />
+    <ClInclude Include="System\System.h" />
+    <ClInclude Include="Files\Directory.h" />
+    <ClInclude Include="Files\File.h" />
+    <ClInclude Include="Files\FileHandler.h" />
+    <ClInclude Include="Files\Formats\FileFormat.h" />
+    <ClInclude Include="Files\Formats\Image\FileFormat_Jpeg.h" />
+    <ClInclude Include="Files\Formats\Image\FileFormat_Png.h" />
+    <ClInclude Include="Files\Formats\Image\FileFormat_Tiff.h" />
+    <ClInclude Include="Files\Formats\Data\FileFormat_Data.h" />
+    <ClInclude Include="Files\Formats\Text\FileFormat_Text.h" />
+    <ClInclude Include="Errors\Error.h" />
+    <ClInclude Include="Graphics\Graphics.h" />
+    <ClInclude Include="Interface\PlayWindow\PlayWindow.h" />
+    <ClInclude Include="Interface\Sidebar\Sidebar.h" />
+    <ClInclude Include="Animation\Animation.h" />
+    <ClInclude Include="Animation\AnimationCurve.h" />
+    <ClInclude Include="Animation\Animator.h" />
+    <ClInclude Include="Animation\FloatAnimation\FloatAnimation.h" />
+    <ClInclude Include="Animation\IntAnimation\IntAnimation.h" />
+    <ClInclude Include="Animation\PointAnimation\PointAnimation.h" />
+    <ClInclude Include="Properties\Property.h" />
+    <ClInclude Include="Properties\PropertyContainer.h" />
+    <ClInclude Include="Properties\IntProperty\ActChangeIntProperty.h" />
+    <ClInclude Include="Properties\IntProperty\IntProperty.h" />
+    <ClInclude Include="Properties\FloatProperty\FloatProperty.h" />
+    <ClInclude Include="Properties\TextProperty\TextProperty.h" />
+    <ClInclude Include="Properties\ColorProperty\ColorProperty.h" />
+    <ClInclude Include="Properties\BoolProperty\BoolProperty.h" />
+    <ClInclude Include="Properties\ListProperty\ListProperty.h" />
+    <ClInclude Include="Properties\GradientProperty\GradientProperty.h" />
+    <ClInclude Include="Contexts\Context.h" />
+    <ClInclude Include="Actions\Action.h" />
+    <ClInclude Include="Actions\ActionManager.h" />
+    <ClInclude Include="Actions\GroupAction.h" />
+    <ClInclude Include="Tools\Tool.h" />
+    <ClInclude Include="Tools\ToolArray.h" />
+    <ClInclude Include="Data\Data.h" />
+    <ClInclude Include="Data\DataArray.h" />
+    <ClInclude Include="Data\Tag.h" />
+    <ClInclude Include="Play.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Math.inl" />
+    <None Include="Types\Color\Color.inl" />
+    <None Include="Types\Color\Color8.inl" />
+    <None Include="Controls\Textbox\Resources\Text.cur" />
+    <None Include="Resources\Cursors\Add.cur" />
+    <None Include="Resources\Cursors\Adjust.cur" />
+    <None Include="Resources\Cursors\Aim.cur" />
+    <None Include="Resources\Cursors\Complete.cur" />
+    <None Include="Resources\Cursors\Dot.cur" />
+    <None Include="Resources\Cursors\DotLarge.cur" />
+    <None Include="Resources\Cursors\Ghost.cur" />
+    <None Include="Resources\Cursors\HandNormal.cur" />
+    <None Include="Resources\Cursors\HandPressed.cur" />
+    <None Include="Resources\Cursors\Magnify.cur" />
+    <None Include="Resources\Cursors\Move.cur" />
+    <None Include="Resources\Cursors\Normal.cur" />
+    <None Include="Resources\Cursors\Remove.cur" />
+    <None Include="Resources\Cursors\RotateB.cur" />
+    <None Include="Resources\Cursors\RotateBL.cur" />
+    <None Include="Resources\Cursors\RotateBR.cur" />
+    <None Include="Resources\Cursors\RotateL.cur" />
+    <None Include="Resources\Cursors\RotateR.cur" />
+    <None Include="Resources\Cursors\RotateT.cur" />
+    <None Include="Resources\Cursors\RotateTL.cur" />
+    <None Include="Resources\Cursors\RotateTR.cur" />
+    <None Include="Resources\Cursors\ScaleBLTR.cur" />
+    <None Include="Resources\Cursors\ScaleLR.cur" />
+    <None Include="Resources\Cursors\ScaleTB.cur" />
+    <None Include="Resources\Cursors\ScaleTLBR.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Operators\Image\OpCrop\Resources\BL.bmp" />
+    <Image Include="Operators\Image\OpCrop\Resources\BR.bmp" />
+    <Image Include="Operators\Image\OpCrop\Resources\TL.bmp" />
+    <Image Include="Operators\Image\OpCrop\Resources\TR.bmp" />
+    <Image Include="Operators\Image\OpResize\Resources\Proportional.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\Control.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\Create.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\ShapeEllipse.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\ShapePolygon.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\ShapeRect.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\Transform.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\VertexBroken.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\VertexFixed.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\VertexMixed.bmp" />
+    <Image Include="Operators\Image\OpShape\Resources\VertexSliding.bmp" />
+    <Image Include="Controls\Button\Resources\Button.bmp" />
+    <Image Include="Controls\Button\Resources\ButtonFocus.bmp" />
+    <Image Include="Controls\Button\Resources\ButtonHighlight.bmp" />
+    <Image Include="Controls\Button\Resources\ButtonPressed.bmp" />
+    <Image Include="Controls\Button\Resources\ButtonSelected.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\ConnectedCircle.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\ConnectionArrow.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\ConnectionPlus.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\ConnectionRing.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\Operator.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\OperatorActive.bmp" />
+    <Image Include="Controls\Views\TreeView\Resources\OperatorShown.bmp" />
+    <Image Include="Controls\Views\Resources\Zoom.bmp" />
+    <Image Include="Controls\Views\Resources\Zoom100.bmp" />
+    <Image Include="Controls\Views\Resources\ZoomDown2.bmp" />
+    <Image Include="Controls\Views\Resources\ZoomFit.bmp" />
+    <Image Include="Controls\Views\Resources\ZoomHover.bmp" />
+    <Image Include="Controls\Views\Resources\ZoomUp2.bmp" />
+    <Image Include="Controls\HoverButton\Resources\HoverButtonBack.bmp" />
+    <Image Include="Controls\HoverButton\Resources\HoverButtonHighlight.bmp" />
+    <Image Include="Controls\HoverButton\Resources\HoverButtonHover.bmp" />
+    <Image Include="Controls\HoverButton\Resources\HoverButtonPressed.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueboxAbsolute.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowDown.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowLeft.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowRight.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowUp.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueboxShadowL.bmp" />
+    <Image Include="Controls\Valuebox\Resources\ValueBoxShadowR.bmp" />
+    <Image Include="Controls\Textbox\Resources\SelectionShadow.bmp" />
+    <Image Include="Controls\Textbox\Resources\TextBoxBorder.bmp" />
+    <Image Include="Controls\Textbox\Resources\TextboxFocus.bmp" />
+    <Image Include="Controls\ColorFan\Resources\SatVal.bmp" />
+    <Image Include="Controls\ListButton\Resources\Expands.bmp" />
+    <Image Include="Controls\ListButton\Resources\StripNeck.bmp" />
+    <Image Include="Controls\ColorButton\Resources\Expands.bmp" />
+    <Image Include="Controls\ColorButton\Resources\Eyedropper.bmp" />
+    <Image Include="Controls\ColorButton\Resources\Fan.bmp" />
+    <Image Include="Controls\ColorButton\Resources\RoundButton.bmp" />
+    <Image Include="Controls\ColorButton\Resources\RoundButtonPressed.bmp" />
+    <Image Include="Controls\ColorButton\Resources\Sliders.bmp" />
+    <Image Include="Controls\ColorButton\Resources\StripNeck.bmp" />
+    <Image Include="Resources\Icons\Play.ico" />
+    <Image Include="Interface\PlayWindow\Resources\Files.bmp" />
+    <Image Include="Interface\PlayWindow\Resources\Redo.bmp" />
+    <Image Include="Interface\PlayWindow\Resources\Tree.bmp" />
+    <Image Include="Interface\PlayWindow\Resources\Undo.bmp" />
+    <Image Include="Interface\PlayWindow\Resources\View.bmp" />
+    <Image Include="Interface\Sidebar\Resources\Shadow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Play.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Dependencies\libjpeg\libjpeg.vcxproj">
+      <Project>{5fee0218-9780-412e-8787-53a6a14fbce8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Dependencies\libpng\libpng.vcxproj">
+      <Project>{6dd46c32-d652-4d7e-8ad6-107bd6015c91}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Dependencies\libtiff\libtiff.vcxproj">
+      <Project>{4893c66c-2bc7-43b1-b007-bbe124572f0a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Dependencies\zlib\zlib.vcxproj">
+      <Project>{6276cfa7-c7f5-478c-be97-bb4f8743c0a0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

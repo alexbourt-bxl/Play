@@ -1,0 +1,212 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PLAY                ICON                    "Icons\\Play.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DOT                 CURSOR                  "Cursors\\Dot.cur"
+IDC_DOT_LARGE           CURSOR                  "Cursors\\DotLarge.cur"
+IDC_TEXT                CURSOR                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Textbox\\Resources\\Text.cur"
+IDC_AIM                 CURSOR                  "Cursors\\Aim.cur"
+IDC_NORMAL              CURSOR                  "Cursors\\Normal.cur"
+IDC_HAND_NORMAL         CURSOR                  "Cursors\\HandNormal.cur"
+IDC_HAND_PRESSED        CURSOR                  "Cursors\\HandPressed.cur"
+IDC_MAGNIFY             CURSOR                  "Cursors\\Magnify.cur"
+IDC_MOVE                CURSOR                  "Cursors\\Move.cur"
+IDC_ROTATE_B            CURSOR                  "Cursors\\RotateB.cur"
+IDC_ROTATE_BL           CURSOR                  "Cursors\\RotateBL.cur"
+IDC_ROTATE_BR           CURSOR                  "Cursors\\RotateBR.cur"
+IDC_ROTATE_L            CURSOR                  "Cursors\\RotateL.cur"
+IDC_ROTATE_R            CURSOR                  "Cursors\\RotateR.cur"
+IDC_ROTATE_T            CURSOR                  "Cursors\\RotateT.cur"
+IDC_ROTATE_TL           CURSOR                  "Cursors\\RotateTL.cur"
+IDC_ROTATE_TR           CURSOR                  "Cursors\\RotateTR.cur"
+IDC_SCALE_BLTR          CURSOR                  "Cursors\\ScaleBLTR.cur"
+IDC_SCALE_LR            CURSOR                  "Cursors\\ScaleLR.cur"
+IDC_SCALE_TB            CURSOR                  "Cursors\\ScaleTB.cur"
+IDC_SCALE_TLBR          CURSOR                  "Cursors\\ScaleTLBR.cur"
+IDC_ADD                 CURSOR                  "Cursors\\Add.cur"
+IDC_REMOVE              CURSOR                  "Cursors\\Remove.cur"
+IDC_COMPLETE            CURSOR                  "Cursors\\Complete.cur"
+IDC_GHOST               CURSOR                  "Cursors\\Ghost.cur"
+IDC_ADJUST              CURSOR                  "Cursors\\Adjust.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Bourt"
+            VALUE "FileDescription", "Play"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "Play"
+            VALUE "LegalCopyright", "Copyright (C) 2010 Alex Bourt"
+            VALUE "OriginalFilename", "Play.exe"
+            VALUE "ProductName", "Play"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CONTROL_VIEW_ZOOM   BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\Resources\\Zoom.bmp"
+IDB_CONTROL_VIEW_ZOOM_100 BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\Resources\\Zoom100.bmp"
+IDB_CONTROL_VIEW_ZOOM_DOWN2 BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\Resources\\ZoomDown2.bmp"
+IDB_CONTROL_VIEW_ZOOM_FIT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\Resources\\ZoomFit.bmp"
+IDB_CONTROL_VIEW_ZOOM_HOVER BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\Resources\\ZoomHover.bmp"
+IDB_CONTROL_VIEW_ZOOM_UP2 BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\Resources\\ZoomUp2.bmp"
+IDB_OPERATOR            BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\Operator.bmp"
+IDB_OPERATOR_CONNECTION_RING BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\ConnectionRing.bmp"
+IDB_OPERATOR_CONNECTED_CIRCLE BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\ConnectedCircle.bmp"
+IDB_OPERATOR_CONNECTION_PLUS BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\ConnectionPlus.bmp"
+IDB_CONTROL_TreeView_CONNECTIONARROW BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\ConnectionArrow.bmp"
+IDB_OPERATOR_SHOWN      BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\OperatorShown.bmp"
+IDB_CONTROL_TEXTBOX_BORDER BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Textbox\\Resources\\TextBoxBorder.bmp"
+IDB_CONTROL_TEXTBOX_FOCUS BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Textbox\\Resources\\TextboxFocus.bmp"
+IDB_CONTROL_VALUEBOX_ARROW_DOWN BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueboxArrowDown.bmp"
+IDB_CONTROL_VALUEBOX_ARROW_LEFT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueboxArrowLeft.bmp"
+IDB_CONTROL_VALUEBOX_ARROW_RIGHT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueboxArrowRight.bmp"
+IDB_CONTROL_VALUEBOX_ARROW_UP BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueboxArrowUp.bmp"
+IDB_CONTROL_VALUEBOX_SHADOW_LEFT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueboxShadowL.bmp"
+IDB_CONTROL_VALUEBOX_SHADOW_RIGHT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueBoxShadowR.bmp"
+IDB_CONTROL_TEXTBOX_SELECTION_SHADOW BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Textbox\\Resources\\SelectionShadow.bmp"
+IDB_CONTROL_COLOR_FAN_SATVAL BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorFan\\Resources\\SatVal.bmp"
+IDB_CONTROL_BUTTON      BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Button\\Resources\\Button.bmp"
+IDB_CONTROL_BUTTON_FOCUS BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Button\\Resources\\ButtonFocus.bmp"
+IDB_CONTROL_BUTTON_HIGHLIGHT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Button\\Resources\\ButtonHighlight.bmp"
+IDB_CONTROL_BUTTON_PRESSED BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Button\\Resources\\ButtonPressed.bmp"
+IDB_CONTROL_BUTTON_SELECTED BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Button\\Resources\\ButtonSelected.bmp"
+IDB_OP_RESIZE_PROPORTIONAL BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpResize\\Resources\\Proportional.bmp"
+IDB_CONTROL_VALUEBOX_ABSOLUTE BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Valuebox\\Resources\\ValueboxAbsolute.bmp"
+IDB_CONTROL_LISTBUTTON_EXPANDS BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ListButton\\Resources\\Expands.bmp"
+IDB_CONTROL_LISTBUTTON_STRIP_NECK BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ListButton\\Resources\\StripNeck.bmp"
+IDB_CONTROL_COLORBUTTON_EYEDROPPER BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\Eyedropper.bmp"
+IDB_CONTROL_COLORBUTTON_FAN BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\Fan.bmp"
+IDB_CONTROL_COLORBUTTON_NECK BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\StripNeck.bmp"
+IDB_CONTROL_COLORBUTTON_SLIDERS BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\Sliders.bmp"
+IDB_CONTROL_COLORBUTTON_EXPANDS BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\Expands.bmp"
+IDB_CONTROL_COLORBUTTON BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\RoundButton.bmp"
+IDB_CONTROL_COLORBUTTON_PRESSED BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\ColorButton\\Resources\\RoundButtonPressed.bmp"
+IDB_SIDEBAR_SHADOW      BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Interface\\Sidebar\\Resources\\Shadow.bmp"
+IDB_CONTROL_HOVERBUTTON_BACK BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\HoverButton\\Resources\\HoverButtonBack.bmp"
+IDB_CONTROL_HOVERBUTTON_HIGHLIGHT BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\HoverButton\\Resources\\HoverButtonHighlight.bmp"
+IDB_CONTROL_HOVERBUTTON_HOVER BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\HoverButton\\Resources\\HoverButtonHover.bmp"
+IDB_CONTROL_HOVERBUTTON_PRESSED BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\HoverButton\\Resources\\HoverButtonPressed.bmp"
+IDB_SIDEBAR_UNDO        BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Interface\\PlayWindow\\Resources\\Undo.bmp"
+IDB_SIDEBAR_TREE        BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Interface\\PlayWindow\\Resources\\Tree.bmp"
+IDB_SIDEBAR_FILES       BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Interface\\PlayWindow\\Resources\\Files.bmp"
+IDB_SIDEBAR_VIEW        BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Interface\\PlayWindow\\Resources\\View.bmp"
+IDB_SIDEBAR_REDO        BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Interface\\PlayWindow\\Resources\\Redo.bmp"
+IDB_OP_CROP_BL          BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpCrop\\Resources\\BL.bmp"
+IDB_OP_CROP_BR          BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpCrop\\Resources\\BR.bmp"
+IDB_OP_CROP_TL          BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpCrop\\Resources\\TL.bmp"
+IDB_OP_CROP_TR          BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpCrop\\Resources\\TR.bmp"
+IDB_OPERATOR_ACTIVE     BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Controls\\Views\\TreeView\\Resources\\OperatorActive.bmp"
+IDB_OP_SHAPE_TRANSFORM  BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\Transform.bmp"
+IDB_OP_SHAPE_CONTROL    BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\Control.bmp"
+IDB_OP_SHAPE_CREATE     BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\Create.bmp"
+IDB_OP_SHAPE_ELLIPSE    BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\ShapeEllipse.bmp"
+IDB_OP_SHAPE_POLYGON    BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\ShapePolygon.bmp"
+IDB_OP_SHAPE_RECT       BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\ShapeRect.bmp"
+IDB_OP_SHAPE_VERTEX_BROKEN BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\VertexBroken.bmp"
+IDB_OP_SHAPE_VERTEX_FIXED BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\VertexFixed.bmp"
+IDB_OP_SHAPE_VERTEX_SLIDING BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\VertexSliding.bmp"
+IDB_OP_SHAPE_VERTEX_MIXED BITMAP                  "C:\\Users\\Alex\\Desktop\\Play!\\Operators\\Image\\OpShape\\Resources\\VertexMixed.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

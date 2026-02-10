@@ -1,0 +1,2191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{5a57901d-50cc-4f1b-88f1-b47194553c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{ab4179db-12d3-4c1d-a97c-a25f89eebb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ff3bdba1-b63e-4877-993d-0bdb7e83f09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{e67341aa-41a3-4136-a456-c6d95c612193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators">
+      <UniqueIdentifier>{dfd4074a-8849-4ebc-8390-f981e624a65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image">
+      <UniqueIdentifier>{24ed0277-cf24-4e3c-afef-809daa71782c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpColor">
+      <UniqueIdentifier>{79fb2563-f717-41ab-9905-e296f7fd725a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpCrop">
+      <UniqueIdentifier>{c8a797e8-f80c-4982-825e-9ce0efb2118b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpCrop\Resources">
+      <UniqueIdentifier>{d750bf1e-7222-4018-b227-d829dc63e1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpResize">
+      <UniqueIdentifier>{e9262f2b-99fe-494c-91ce-b9c5c37da8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpResize\Resources">
+      <UniqueIdentifier>{61458cc9-484d-489b-8543-dd84b8b66804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpNoise">
+      <UniqueIdentifier>{dd307f9a-4956-4dd4-947f-24113a8d310e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpOpacity">
+      <UniqueIdentifier>{9069787b-344a-4ba6-b854-2513243c4c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpFilter">
+      <UniqueIdentifier>{0a20e158-0fa5-4b76-8cc7-5475c4d923c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpPaint">
+      <UniqueIdentifier>{4401a357-0525-4a29-b197-e37f6dd7a4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpPaint\Paint Engine">
+      <UniqueIdentifier>{7a304572-bf0a-44d5-b898-99ac355ba8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpPaint\Controls">
+      <UniqueIdentifier>{6e386fff-5875-4fc1-b14f-7b6285f18c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpGradient">
+      <UniqueIdentifier>{fabc5df1-52f5-45bf-a2b3-4ad0204a22d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpImage">
+      <UniqueIdentifier>{cc887b34-df92-40b7-8175-6a49d112a386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpMultiply">
+      <UniqueIdentifier>{85055d45-f778-4986-ae37-efcfe548ad7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpOver">
+      <UniqueIdentifier>{c39dbe41-94c9-4a4c-9fb4-140e3203cdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpMove">
+      <UniqueIdentifier>{f43c6e1e-6662-4be6-b56c-883856c073c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpShape">
+      <UniqueIdentifier>{6576735e-d742-4f3a-ac4c-92735ca7cd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpShape\Resources">
+      <UniqueIdentifier>{5a491345-006e-40e2-9edc-390df9964fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpShape\Tools">
+      <UniqueIdentifier>{fff96a19-7ce4-42f6-9bd8-acbdb693c366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpAdd">
+      <UniqueIdentifier>{4ffa68c7-66c0-42b7-a102-d4d8729e974d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpSubtract">
+      <UniqueIdentifier>{48d9cfa6-031b-41c3-8a5f-eeeec92e1976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpBrightness">
+      <UniqueIdentifier>{e186c522-b1a5-4ce6-8923-1cddf595a10a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpGamma">
+      <UniqueIdentifier>{fd7b1fda-32b5-45c8-bfbb-d4d43cef3224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpSaturation">
+      <UniqueIdentifier>{7021aa06-d975-4e1a-9fd3-2b459227a4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpContrast">
+      <UniqueIdentifier>{2dfe8c19-cdda-4a5e-badf-e89800025c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpPremultiply">
+      <UniqueIdentifier>{a8c868cf-13a2-4c57-85c1-38e0da23cb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpUnpremultiply">
+      <UniqueIdentifier>{89cfc03b-e8af-4f60-b3f7-52642c8591fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpThreshold">
+      <UniqueIdentifier>{959c521b-bf56-4866-afb8-0e599b1b384d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpColorRange">
+      <UniqueIdentifier>{87066f2d-e269-411a-8e8c-8b3a48a882d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpHSV">
+      <UniqueIdentifier>{2b752a11-03f7-4dd4-9435-df3383b71c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Image\OpChannels">
+      <UniqueIdentifier>{f1585ca6-fbc4-46fe-b53a-3360a9770405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Data">
+      <UniqueIdentifier>{da60eed3-5a8c-4a50-b3d1-3125b172d082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Text">
+      <UniqueIdentifier>{b8f20bd6-1646-468e-bcd3-34fbb37e5abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Text\OpText">
+      <UniqueIdentifier>{96b19b34-cb61-40f4-b128-1ec7b256564e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\OpFile">
+      <UniqueIdentifier>{47a2cfc9-0110-41fd-bf75-12520949bcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\OpNull">
+      <UniqueIdentifier>{6819255f-9bd9-41dc-b1e2-98f1e32abca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Resources">
+      <UniqueIdentifier>{a204effd-cdc6-4b9c-8954-411439d6f69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Tree">
+      <UniqueIdentifier>{0e5eaf1c-0503-465f-93d7-8fd3815b0b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operators\Actions">
+      <UniqueIdentifier>{fc96ab08-93d3-469d-9c03-fd452c27c923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{973ea50d-c134-4b98-8404-9967b407ce83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{b68e2b9e-dfcb-43aa-aa9f-c2510e42217f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Geometric">
+      <UniqueIdentifier>{965d08bf-ad12-41ee-8adb-cf10bcfe2a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Basic">
+      <UniqueIdentifier>{d3440e63-0b34-4eda-9464-ac03c3a8eac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Color">
+      <UniqueIdentifier>{0e1c903d-e174-4383-8f4a-0e4618ad32c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Graphics">
+      <UniqueIdentifier>{2fab319a-bb26-45c7-9c38-edaba055fcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threads">
+      <UniqueIdentifier>{170979b0-b5e7-45fc-b361-e7c1fc1d2c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timing">
+      <UniqueIdentifier>{9f2d3ef7-29bc-4c23-97b4-d466596d9d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{1905b0e8-c876-41a1-ad90-5e796187e61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Window">
+      <UniqueIdentifier>{f3497ff1-f19e-4393-82c1-21a673d2621c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Grip">
+      <UniqueIdentifier>{93129cdd-9a18-4c90-bafb-6325fe35e65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Button">
+      <UniqueIdentifier>{98248bd6-52e4-4931-8a32-f950129245e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Button\Resources">
+      <UniqueIdentifier>{c6cc9479-515c-4930-b0e0-bfe38feb561b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\TextControl">
+      <UniqueIdentifier>{54dc7a5d-daff-4eab-8308-22f247f7b6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views">
+      <UniqueIdentifier>{01e747e4-b304-43e1-93a6-810bff38d6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\TreeView">
+      <UniqueIdentifier>{9dc63958-4451-4f2d-92cf-d7c988be0b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\TreeView\Resources">
+      <UniqueIdentifier>{3da619fd-e993-421a-8ac6-7bc1aec47e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\ImageView">
+      <UniqueIdentifier>{4b91a757-9e57-40c4-a7d5-f59ebd88b9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\NavControl">
+      <UniqueIdentifier>{f514d80e-9f68-4ed1-a136-39d5980fc79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\Resources">
+      <UniqueIdentifier>{e473c5bd-f974-49c0-a949-ffc377c9bfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\PropertyView">
+      <UniqueIdentifier>{4fa87fcc-a3af-44f4-84ff-229547dcbba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\OpView">
+      <UniqueIdentifier>{256adef4-c532-4707-8c87-1effb4948239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\FileView">
+      <UniqueIdentifier>{37c3d447-bb20-4317-a321-55ac5755dc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\CurveView">
+      <UniqueIdentifier>{66e47e1f-4a19-444e-9695-1e16dcc9d11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Views\ShapeView">
+      <UniqueIdentifier>{e6bed820-70a7-46be-9c13-8ab47988b9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Layout">
+      <UniqueIdentifier>{c4e5de75-bdcc-4873-a1c6-1c0082fe3d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Layout\GridLayout">
+      <UniqueIdentifier>{23315458-7487-4570-82ed-41942acc6582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Layout\LineLayout">
+      <UniqueIdentifier>{78b70e55-64e5-4d68-ba17-48109ef83b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Layout\Spacer">
+      <UniqueIdentifier>{fea37928-8b9e-440e-ade4-a4415f118343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Layout\ScrollLayout">
+      <UniqueIdentifier>{6ea556c9-7404-4a61-b98f-6f635320b76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Label">
+      <UniqueIdentifier>{6112d524-281c-4a1b-b957-791a16c3ee92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ImageControl">
+      <UniqueIdentifier>{935ac9f9-352d-4c29-881a-15a0e4d4f65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\OpList">
+      <UniqueIdentifier>{3820222e-5044-47dd-a485-601a3aabce4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\HoverButton">
+      <UniqueIdentifier>{90cd4ea9-ed7a-4ada-9bcb-7c475bf4439b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\HoverButton\Resources">
+      <UniqueIdentifier>{82acc163-4098-4d9b-8f1d-8ab358c39496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Valuebox">
+      <UniqueIdentifier>{999993d3-9706-4803-a3f6-484b37187fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Valuebox\Resources">
+      <UniqueIdentifier>{94b06d68-34e9-41bd-9655-84f96566a1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Textbox">
+      <UniqueIdentifier>{3a6e23f1-ab4d-4d4a-9298-68f900d6335a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Textbox\Resources">
+      <UniqueIdentifier>{3f815ec5-7b4b-4405-a555-6ddeb1ce16b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ColorFan">
+      <UniqueIdentifier>{b4db9231-7e5b-4619-9daf-85ac633837a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ColorFan\Resources">
+      <UniqueIdentifier>{5771ce82-46fd-457e-b4d4-59fa1c7ba1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ListButton">
+      <UniqueIdentifier>{34d251a4-afa7-43de-b9ab-44a95701f10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ListButton\Resources">
+      <UniqueIdentifier>{11646fd0-ab7a-41b0-a6ee-0314ac7253d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ListButton\Strip">
+      <UniqueIdentifier>{bca2163b-0dc5-4720-9712-3c96cc0a723f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ColorButton">
+      <UniqueIdentifier>{a1ffb6b6-da00-4642-8b2d-d7ad2e553427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ColorButton\Resources">
+      <UniqueIdentifier>{611d9ae5-06cf-4ed2-affa-2c6f279009af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices">
+      <UniqueIdentifier>{71973858-21c6-4962-a166-0b72187bd7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Keyboard">
+      <UniqueIdentifier>{31c78684-c679-406a-9f8b-c9401a1b7ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Mouse">
+      <UniqueIdentifier>{42035a96-217d-4c81-89b7-a22d6dfa22b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Screen">
+      <UniqueIdentifier>{263d7389-dfc6-48f5-8a93-e0289b8301b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Tablet">
+      <UniqueIdentifier>{f0f1da8b-d0c8-4009-bf6e-268ff199ed76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Tablet\Wintab">
+      <UniqueIdentifier>{da769cf5-c6b0-4663-acba-27053a243bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Users">
+      <UniqueIdentifier>{d628adfb-2e9d-478d-a78b-ce890fe8c391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e47125e5-926f-4ebd-9f22-beba39c0b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icons">
+      <UniqueIdentifier>{d6d560d0-ab91-4f26-8d10-34b77eb1cb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Cursors">
+      <UniqueIdentifier>{fe4f8403-4ef6-4da8-85da-64416578321c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipboard">
+      <UniqueIdentifier>{fcda23ba-90a1-4f2b-9f17-d203ca54d17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{78cd7c71-27ae-4ee2-81a6-0b9aecf7e157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{d76313f3-6e01-449f-9954-51a6f961bed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Formats">
+      <UniqueIdentifier>{2d645016-ebdb-4390-88fa-f1b44bbe6d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Formats\Image">
+      <UniqueIdentifier>{1f25ea59-31e7-4649-8246-042c5291098f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Formats\Data">
+      <UniqueIdentifier>{73c91ec0-636c-4115-874d-9cf4edb33c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Formats\Text">
+      <UniqueIdentifier>{1595ca70-00bb-4c18-a608-52ab4670bd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Errors">
+      <UniqueIdentifier>{6fc89cc0-6d5b-44ae-84b7-55ea786d9e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{8c758205-c8e7-4e2a-a902-5586705dd60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{53670fc9-18fe-44fa-b22a-8be55d776f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\PlayWindow">
+      <UniqueIdentifier>{21e7868f-ba55-4ff4-983e-fcc71c0fdb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\PlayWindow\Resources">
+      <UniqueIdentifier>{cd7d669f-e1fc-48cd-8b27-aba69b423c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Sidebar">
+      <UniqueIdentifier>{ae841062-cb0c-439e-a1bd-0be5e52e1049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Sidebar\Resources">
+      <UniqueIdentifier>{c24dd7bb-2edd-4a32-a74b-155c827e668c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{592be375-c06d-40c1-b245-c053979e29ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\FloatAnimation">
+      <UniqueIdentifier>{db8e0bcf-548c-4c79-bd73-e646905e0af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\IntAnimation">
+      <UniqueIdentifier>{133d0eac-95db-4994-9f14-d3e1bfd1147f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\PointAnimation">
+      <UniqueIdentifier>{86e514c2-7f24-499b-b4fa-228c36cab00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{bca9f132-498f-4477-9fe7-6444bade02c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\IntProperty">
+      <UniqueIdentifier>{52a0b523-5e6d-43db-8b7c-d9482c2fe537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\FloatProperty">
+      <UniqueIdentifier>{a09eb53d-772b-4f58-89b3-2d1d71e9d4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\TextProperty">
+      <UniqueIdentifier>{7605e2d3-516f-448e-826f-5b57ec656d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\ColorProperty">
+      <UniqueIdentifier>{21813612-820c-4835-a262-13d6ec63ef17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\BoolProperty">
+      <UniqueIdentifier>{125b9296-d781-4466-8e55-7c8703773aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\ListProperty">
+      <UniqueIdentifier>{13ac4be1-ab66-4655-ada9-b4185a520cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties\GradientProperty">
+      <UniqueIdentifier>{ecf29fcf-d512-4089-933a-69266ff66d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contexts">
+      <UniqueIdentifier>{abf0b64d-cb37-476c-93d5-27dbc2d7053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{11c49d77-c9e8-4e99-a8da-204ce8caa984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{d00ad8f8-0987-4f6d-b40d-72de1e9bcf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{74fdbe96-7194-4a29-b123-a7fa28292b4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Containers\Array.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers\Container.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers\Hashtable.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers\List.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\EventSender.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Message.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\Gdi.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\Gdi_LeakTest.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\Native.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\Resource.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Connection.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Input.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\InputArray.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\InputArray_Events.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Operator.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Operator_Events.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Output.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Output_Events.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\OutputArray.cpp">
+      <Filter>Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpColor\OpColor.cpp">
+      <Filter>Operators\Image\OpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpCrop\OpCrop.cpp">
+      <Filter>Operators\Image\OpCrop</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpCrop\OpCrop_Events.cpp">
+      <Filter>Operators\Image\OpCrop</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpCrop\OpCrop_Resources.cpp">
+      <Filter>Operators\Image\OpCrop</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpResize\OpResize.cpp">
+      <Filter>Operators\Image\OpResize</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpResize\OpResize_Events.cpp">
+      <Filter>Operators\Image\OpResize</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpResize\OpResize_Resources.cpp">
+      <Filter>Operators\Image\OpResize</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpNoise\OpNoise.cpp">
+      <Filter>Operators\Image\OpNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpOpacity\OpOpacity.cpp">
+      <Filter>Operators\Image\OpOpacity</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpFilter\OpFilter.cpp">
+      <Filter>Operators\Image\OpFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\OpPaint.cpp">
+      <Filter>Operators\Image\OpPaint</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\OpPaint_Events.cpp">
+      <Filter>Operators\Image\OpPaint</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Brush.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Brush_Serialize.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Brush_Stroke.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\BrushParameter.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\BrushStroke.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\BrushValue.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Noise.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\Painter.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Paint Engine\StrokePoint.cpp">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Controls\BrushControl.cpp">
+      <Filter>Operators\Image\OpPaint\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Controls\BrushControl_Events.cpp">
+      <Filter>Operators\Image\OpPaint\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPaint\Controls\BrushControl_Resources.cpp">
+      <Filter>Operators\Image\OpPaint\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpGradient\OpGradient.cpp">
+      <Filter>Operators\Image\OpGradient</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpGradient\OpGradient_Events.cpp">
+      <Filter>Operators\Image\OpGradient</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpGradient\OpGradient_Render.cpp">
+      <Filter>Operators\Image\OpGradient</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpImage\OpImage.cpp">
+      <Filter>Operators\Image\OpImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpImage\OpImage_Events.cpp">
+      <Filter>Operators\Image\OpImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpMultiply\OpMultiply.cpp">
+      <Filter>Operators\Image\OpMultiply</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpOver\OpOver.cpp">
+      <Filter>Operators\Image\OpOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpMove\OpMove.cpp">
+      <Filter>Operators\Image\OpMove</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpMove\OpMove_Events.cpp">
+      <Filter>Operators\Image\OpMove</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\OpShape.cpp">
+      <Filter>Operators\Image\OpShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\OpShape_Event.cpp">
+      <Filter>Operators\Image\OpShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\OpShape_Resources.cpp">
+      <Filter>Operators\Image\OpShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ControlTool.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ControlTool_Events.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ControlTool_Resources.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\CreateTool.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\CreateTool_Events.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\CreateTool_Resources.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ShapeTool.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ShapeTool_Events.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\ShapeTool_Resources.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\TransformTool.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\TransformTool_Events.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpShape\Tools\TransformTool_Resources.cpp">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpAdd\OpAdd.cpp">
+      <Filter>Operators\Image\OpAdd</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpSubtract\OpSubtract.cpp">
+      <Filter>Operators\Image\OpSubtract</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpBrightness\OpBrightness.cpp">
+      <Filter>Operators\Image\OpBrightness</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpGamma\OpGamma.cpp">
+      <Filter>Operators\Image\OpGamma</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpSaturation\OpSaturation.cpp">
+      <Filter>Operators\Image\OpSaturation</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpContrast\OpContrast.cpp">
+      <Filter>Operators\Image\OpContrast</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpPremultiply\OpPremultiply.cpp">
+      <Filter>Operators\Image\OpPremultiply</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpUnpremultiply\OpUnpremultiply.cpp">
+      <Filter>Operators\Image\OpUnpremultiply</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpThreshold\OpThreshold.cpp">
+      <Filter>Operators\Image\OpThreshold</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpColorRange\OpChromaRange.cpp">
+      <Filter>Operators\Image\OpColorRange</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpHSV\OpHSV.cpp">
+      <Filter>Operators\Image\OpHSV</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\OpChannels.cpp">
+      <Filter>Operators\Image\OpChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\OpChannels_Events.cpp">
+      <Filter>Operators\Image\OpChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\RewireControl.cpp">
+      <Filter>Operators\Image\OpChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Image\OpChannels\RewireControl_Events.cpp">
+      <Filter>Operators\Image\OpChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Text\OpText\OpText.cpp">
+      <Filter>Operators\Text\OpText</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\OpFile\OpFile.cpp">
+      <Filter>Operators\OpFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\OpFile\OpFile_Events.cpp">
+      <Filter>Operators\OpFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\OpNull\OpNull.cpp">
+      <Filter>Operators\OpNull</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Tree\Tree.cpp">
+      <Filter>Operators\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Tree\Tree_Events.cpp">
+      <Filter>Operators\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Actions\ActConnect.cpp">
+      <Filter>Operators\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Actions\ActCreateOp.cpp">
+      <Filter>Operators\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Actions\ActDeleteOps.cpp">
+      <Filter>Operators\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Actions\ActDisconnect.cpp">
+      <Filter>Operators\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators\Actions\ActMoveOps.cpp">
+      <Filter>Operators\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\Serializable.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Object.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\ObjectPool.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\ObjectPool_Events.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Reference.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Type.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Align.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Curve.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Curve_Point.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\FPoint.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\FRect.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\FSize.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Matrix33.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\ParamCurve.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\ParamCurve_Point.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Point.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Poly.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Rect.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Region.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Shape.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Size.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Geometric\Vector3.cpp">
+      <Filter>Types\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Basic\String.cpp">
+      <Filter>Types\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Basic\String_Serialize.cpp">
+      <Filter>Types\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Color\Color.cpp">
+      <Filter>Types\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Color\Color8.cpp">
+      <Filter>Types\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Color\Gradient.cpp">
+      <Filter>Types\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Font.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\GdiImage.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\GdiImage8.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\GdiImage8_Convert.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\GdiImage8_Serialize.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\GdiImage_Convert.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Image.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Image8.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Image8_Convert.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Image8_Serialize.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Skin.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Space.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\Graphics\Space_Tile.cpp">
+      <Filter>Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Thread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\ThreadLock.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing\Timer.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Control.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Control_Events.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Window\Window.cpp">
+      <Filter>Controls\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Window\Window_Native.cpp">
+      <Filter>Controls\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Window\Window_Reactions.cpp">
+      <Filter>Controls\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Window\WindowFrame.cpp">
+      <Filter>Controls\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Grip\Grip.cpp">
+      <Filter>Controls\Grip</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Grip\Grip_Events.cpp">
+      <Filter>Controls\Grip</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Button\Button.cpp">
+      <Filter>Controls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Button\Button_Reactions.cpp">
+      <Filter>Controls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Button\Button_Resources.cpp">
+      <Filter>Controls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\TextControl\TextControl.cpp">
+      <Filter>Controls\TextControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\View.cpp">
+      <Filter>Controls\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\TreeView\TreeView.cpp">
+      <Filter>Controls\Views\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\TreeView\TreeView_Ops.cpp">
+      <Filter>Controls\Views\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\TreeView\TreeView_Reactions.cpp">
+      <Filter>Controls\Views\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\TreeView\TreeView_Resources.cpp">
+      <Filter>Controls\Views\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\ImageView\ImageView.cpp">
+      <Filter>Controls\Views\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\ImageView\ImageView_Events.cpp">
+      <Filter>Controls\Views\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\ImageView\ImageView_Resources.cpp">
+      <Filter>Controls\Views\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\NavControl\NavControl.cpp">
+      <Filter>Controls\Views\NavControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\NavControl\NavControl_Events.cpp">
+      <Filter>Controls\Views\NavControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\PropertyView\PropertyView.cpp">
+      <Filter>Controls\Views\PropertyView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\PropertyView\PropertyView_Events.cpp">
+      <Filter>Controls\Views\PropertyView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\OpView\OpView.cpp">
+      <Filter>Controls\Views\OpView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\FileView\FileControl.cpp">
+      <Filter>Controls\Views\FileView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\FileView\FileControl_Events.cpp">
+      <Filter>Controls\Views\FileView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\FileView\FileView.cpp">
+      <Filter>Controls\Views\FileView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\FileView\FileView_Events.cpp">
+      <Filter>Controls\Views\FileView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\CurveView\CurveView.cpp">
+      <Filter>Controls\Views\CurveView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\CurveView\CurveView_Events.cpp">
+      <Filter>Controls\Views\CurveView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\ShapeView\ShapeView.cpp">
+      <Filter>Controls\Views\ShapeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Views\ShapeView\ShapeView_Events.cpp">
+      <Filter>Controls\Views\ShapeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\Layout.cpp">
+      <Filter>Controls\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\Layout_Events.cpp">
+      <Filter>Controls\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout.cpp">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Cell.cpp">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Cell_Reactions.cpp">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Column.cpp">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Reactions.cpp">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\GridLayout\GridLayout_Row.cpp">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\LineLayout\LineLayout.cpp">
+      <Filter>Controls\Layout\LineLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\LineLayout\LineLayout_Events.cpp">
+      <Filter>Controls\Layout\LineLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\Spacer\Spacer.cpp">
+      <Filter>Controls\Layout\Spacer</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\Spacer\Spacer_Events.cpp">
+      <Filter>Controls\Layout\Spacer</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\ScrollLayout\ScrollLayout.cpp">
+      <Filter>Controls\Layout\ScrollLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Layout\ScrollLayout\ScrollLayout_Events.cpp">
+      <Filter>Controls\Layout\ScrollLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Label\Label.cpp">
+      <Filter>Controls\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Label\Label_Events.cpp">
+      <Filter>Controls\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ImageControl\ImageControl.cpp">
+      <Filter>Controls\ImageControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ImageControl\ImageControl_Events.cpp">
+      <Filter>Controls\ImageControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\OpList\OpButton.cpp">
+      <Filter>Controls\OpList</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\OpList\OpButton_Events.cpp">
+      <Filter>Controls\OpList</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\OpList\OpList.cpp">
+      <Filter>Controls\OpList</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\OpList\OpList_Events.cpp">
+      <Filter>Controls\OpList</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\HoverButton\HoverButton.cpp">
+      <Filter>Controls\HoverButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\HoverButton\HoverButton_Reactions.cpp">
+      <Filter>Controls\HoverButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\HoverButton\HoverButton_Resources.cpp">
+      <Filter>Controls\HoverButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ValueBox\Valuebox.cpp">
+      <Filter>Controls\Valuebox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ValueBox\Valuebox_Events.cpp">
+      <Filter>Controls\Valuebox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ValueBox\Valuebox_Resources.cpp">
+      <Filter>Controls\Valuebox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Textbox\Textbox.cpp">
+      <Filter>Controls\Textbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Textbox\Textbox_Clipboard.cpp">
+      <Filter>Controls\Textbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Textbox\Textbox_Events.cpp">
+      <Filter>Controls\Textbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Textbox\Textbox_Keys.cpp">
+      <Filter>Controls\Textbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\Textbox\Textbox_Resources.cpp">
+      <Filter>Controls\Textbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ColorFan\ColorFan.cpp">
+      <Filter>Controls\ColorFan</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ColorFan\ColorFan_Events.cpp">
+      <Filter>Controls\ColorFan</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListButton\ListButton.cpp">
+      <Filter>Controls\ListButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListButton\ListButton_Events.cpp">
+      <Filter>Controls\ListButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListButton\ListButton_Resources.cpp">
+      <Filter>Controls\ListButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListButton\Strip\Strip.cpp">
+      <Filter>Controls\ListButton\Strip</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListButton\Strip\Strip_Events.cpp">
+      <Filter>Controls\ListButton\Strip</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ColorButton\ColorButton.cpp">
+      <Filter>Controls\ColorButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ColorButton\ColorButton_Events.cpp">
+      <Filter>Controls\ColorButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ColorButton\ColorButton_Resources.cpp">
+      <Filter>Controls\ColorButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Keyboard\Key.cpp">
+      <Filter>Devices\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Keyboard\KeyCombo.cpp">
+      <Filter>Devices\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Mouse\Cursor.cpp">
+      <Filter>Devices\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Mouse\Mouse.cpp">
+      <Filter>Devices\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Screen\Screen.cpp">
+      <Filter>Devices\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Tablet\Tablet.cpp">
+      <Filter>Devices\Tablet</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\Tablet\Tablet_DLL.cpp">
+      <Filter>Devices\Tablet</Filter>
+    </ClCompile>
+    <ClCompile Include="Users\User.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Users\UserMetric.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Users\UserMetric_Events.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipboard\Clipboard.cpp">
+      <Filter>Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipboard\Clipboard_Data.cpp">
+      <Filter>Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="System\App.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Directory.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\File.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\FileHandler.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Formats\FileFormat.cpp">
+      <Filter>Files\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Formats\Image\FileFormat_Jpeg.cpp">
+      <Filter>Files\Formats\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Formats\Image\FileFormat_Png.cpp">
+      <Filter>Files\Formats\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Formats\Image\FileFormat_Tiff.cpp">
+      <Filter>Files\Formats\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Formats\Data\FileFormat_Data.cpp">
+      <Filter>Files\Formats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\Formats\Text\FileFormat_Text.cpp">
+      <Filter>Files\Formats\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors\Error.cpp">
+      <Filter>Errors</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Antialias.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Bezier.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Gdi.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Image.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Image_GdiImage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Image_Image8.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Line.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Line_GdiImage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Line_Image8.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_MarchingAnts.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Pixel.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Poly.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Poly_GdiImage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Poly_Image8.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Rect.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Rect_GdiImage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Rect_Image8.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Scanline.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Shape.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Shape_GdiImage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Shape_Image8.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Skin.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Static.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Subpixel.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Text.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics_Text_GdiImage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\PlayWindow\PlayWindow.cpp">
+      <Filter>Interface\PlayWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\PlayWindow\PlayWindow_Reactions.cpp">
+      <Filter>Interface\PlayWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\PlayWindow\PlayWindow_Resources.cpp">
+      <Filter>Interface\PlayWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Sidebar\Sidebar.cpp">
+      <Filter>Interface\Sidebar</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Sidebar\Sidebar_Events.cpp">
+      <Filter>Interface\Sidebar</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Sidebar\Sidebar_Resources.cpp">
+      <Filter>Interface\Sidebar</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AnimationCurve.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animator.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animator_Events.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\FloatAnimation\FloatAnimation.cpp">
+      <Filter>Animation\FloatAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\IntAnimation\IntAnimation.cpp">
+      <Filter>Animation\IntAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\PointAnimation\PointAnimation.cpp">
+      <Filter>Animation\PointAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\Property.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\Property_Reactions.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\PropertyContainer.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\PropertyContainer_Events.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\IntProperty\ActChangeIntProperty.cpp">
+      <Filter>Properties\IntProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\IntProperty\IntProperty.cpp">
+      <Filter>Properties\IntProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\IntProperty\IntProperty_Events.cpp">
+      <Filter>Properties\IntProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\FloatProperty\FloatProperty.cpp">
+      <Filter>Properties\FloatProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\FloatProperty\FloatProperty_Events.cpp">
+      <Filter>Properties\FloatProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\TextProperty\TextProperty.cpp">
+      <Filter>Properties\TextProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\TextProperty\TextProperty_Events.cpp">
+      <Filter>Properties\TextProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\ColorProperty\ColorProperty.cpp">
+      <Filter>Properties\ColorProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\ColorProperty\ColorProperty_Events.cpp">
+      <Filter>Properties\ColorProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\ColorProperty\ColorProperty_Resources.cpp">
+      <Filter>Properties\ColorProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\BoolProperty\BoolProperty.cpp">
+      <Filter>Properties\BoolProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\BoolProperty\BoolProperty_Events.cpp">
+      <Filter>Properties\BoolProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\ListProperty\ListProperty.cpp">
+      <Filter>Properties\ListProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\ListProperty\ListProperty_Events.cpp">
+      <Filter>Properties\ListProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\GradientProperty\GradientProperty.cpp">
+      <Filter>Properties\GradientProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\GradientProperty\GradientProperty_Events.cpp">
+      <Filter>Properties\GradientProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties\GradientProperty\GradientProperty_Resources.cpp">
+      <Filter>Properties\GradientProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions\Action.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions\ActionManager.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions\GroupAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Tool.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ToolArray.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ToolArray_Events.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Data.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\DataArray.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Tag.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Containers\Array.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Container.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Hashtable.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\List.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\EventHandler.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\EventHandlerBase.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\EventHandlerMember.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\EventHandlerStatic.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\EventSender.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Message.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\_Hinstance.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\Gdi.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\Native.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\Resource.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Connection.h">
+      <Filter>Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Input.h">
+      <Filter>Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\InputArray.h">
+      <Filter>Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Operator.h">
+      <Filter>Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Output.h">
+      <Filter>Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\OutputArray.h">
+      <Filter>Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\Brush.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushMessage.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushParameter.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushStroke.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\BrushValue.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\Noise.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\Painter.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Paint Engine\StrokePoint.h">
+      <Filter>Operators\Image\OpPaint\Paint Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpPaint\Controls\BrushControl.h">
+      <Filter>Operators\Image\OpPaint\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Image\OpChannels\RewireControl.h">
+      <Filter>Operators\Image\OpChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Tree\Tree.h">
+      <Filter>Operators\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Actions\ActConnect.h">
+      <Filter>Operators\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Actions\ActCreateOp.h">
+      <Filter>Operators\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Actions\ActDeleteOps.h">
+      <Filter>Operators\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Actions\ActDisconnect.h">
+      <Filter>Operators\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators\Actions\ActMoveOps.h">
+      <Filter>Operators\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\Serializable.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\BaseTypes.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Object.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\ObjectPool.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Reference.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Type.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Align.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Curve.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\FPoint.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\FRect.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\FSize.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Matrix33.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\ParamCurve.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Point.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Poly.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Rect.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Region.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Shape.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Size.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Geometric\Vector3.h">
+      <Filter>Types\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Basic\String.h">
+      <Filter>Types\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Color\Color.h">
+      <Filter>Types\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Color\Color8.h">
+      <Filter>Types\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Color\Gradient.h">
+      <Filter>Types\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\Font.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\GdiImage.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\GdiImage8.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\Image.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\Image8.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\Skin.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\Space.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Graphics\Space_Tile.h">
+      <Filter>Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\Thread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\ThreadLock.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing\Timer.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Button\Button.h">
+      <Filter>Controls\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\TextControl\TextControl.h">
+      <Filter>Controls\TextControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\View.h">
+      <Filter>Controls\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\TreeView\TreeView.h">
+      <Filter>Controls\Views\TreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\ImageView\ImageView.h">
+      <Filter>Controls\Views\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\NavControl\NavControl.h">
+      <Filter>Controls\Views\NavControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\PropertyView\PropertyView.h">
+      <Filter>Controls\Views\PropertyView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\OpView\OpView.h">
+      <Filter>Controls\Views\OpView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\FileView\FileControl.h">
+      <Filter>Controls\Views\FileView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\FileView\FileView.h">
+      <Filter>Controls\Views\FileView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Views\CurveView\CurveView.h">
+      <Filter>Controls\Views\CurveView</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Layout\Layout.h">
+      <Filter>Controls\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Layout\GridLayout\GridLayout.h">
+      <Filter>Controls\Layout\GridLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Layout\LineLayout\LineLayout.h">
+      <Filter>Controls\Layout\LineLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Layout\Spacer\Spacer.h">
+      <Filter>Controls\Layout\Spacer</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Layout\ScrollLayout\ScrollLayout.h">
+      <Filter>Controls\Layout\ScrollLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Label\Label.h">
+      <Filter>Controls\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ImageControl\ImageControl.h">
+      <Filter>Controls\ImageControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\OpList\OpButton.h">
+      <Filter>Controls\OpList</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\OpList\OpList.h">
+      <Filter>Controls\OpList</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\HoverButton\HoverButton.h">
+      <Filter>Controls\HoverButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ValueBox\Valuebox.h">
+      <Filter>Controls\Valuebox</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\Textbox\Textbox.h">
+      <Filter>Controls\Textbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ColorFan\ColorFan.h">
+      <Filter>Controls\ColorFan</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ListButton\ListButton.h">
+      <Filter>Controls\ListButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ListButton\Strip\Strip.h">
+      <Filter>Controls\ListButton\Strip</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ColorButton\ColorButton.h">
+      <Filter>Controls\ColorButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Keyboard\Key.h">
+      <Filter>Devices\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Keyboard\KeyCombo.h">
+      <Filter>Devices\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Mouse\Cursor.h">
+      <Filter>Devices\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Mouse\Mouse.h">
+      <Filter>Devices\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Tablet\Tablet.h">
+      <Filter>Devices\Tablet</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Tablet\Wintab\PKTDEF.H">
+      <Filter>Devices\Tablet\Wintab</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Tablet\Wintab\WINTAB.H">
+      <Filter>Devices\Tablet\Wintab</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\Tablet\Wintab\WINTABX.H">
+      <Filter>Devices\Tablet\Wintab</Filter>
+    </ClInclude>
+    <ClInclude Include="Users\User.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Users\UserMetric.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="System\App.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Directory.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\File.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\FileHandler.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Formats\FileFormat.h">
+      <Filter>Files\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Formats\Image\FileFormat_Jpeg.h">
+      <Filter>Files\Formats\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Formats\Image\FileFormat_Png.h">
+      <Filter>Files\Formats\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Formats\Image\FileFormat_Tiff.h">
+      <Filter>Files\Formats\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Formats\Data\FileFormat_Data.h">
+      <Filter>Files\Formats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\Formats\Text\FileFormat_Text.h">
+      <Filter>Files\Formats\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors\Error.h">
+      <Filter>Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\PlayWindow\PlayWindow.h">
+      <Filter>Interface\PlayWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Sidebar\Sidebar.h">
+      <Filter>Interface\Sidebar</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimationCurve.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\FloatAnimation\FloatAnimation.h">
+      <Filter>Animation\FloatAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\IntAnimation\IntAnimation.h">
+      <Filter>Animation\IntAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\PointAnimation\PointAnimation.h">
+      <Filter>Animation\PointAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\Property.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\PropertyContainer.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\IntProperty\ActChangeIntProperty.h">
+      <Filter>Properties\IntProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\IntProperty\IntProperty.h">
+      <Filter>Properties\IntProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\FloatProperty\FloatProperty.h">
+      <Filter>Properties\FloatProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\TextProperty\TextProperty.h">
+      <Filter>Properties\TextProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\ColorProperty\ColorProperty.h">
+      <Filter>Properties\ColorProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\BoolProperty\BoolProperty.h">
+      <Filter>Properties\BoolProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\ListProperty\ListProperty.h">
+      <Filter>Properties\ListProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties\GradientProperty\GradientProperty.h">
+      <Filter>Properties\GradientProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Contexts\Context.h">
+      <Filter>Contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\Action.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\ActionManager.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\GroupAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Tool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ToolArray.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Data.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\DataArray.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Tag.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Math.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Types\Color\Color.inl">
+      <Filter>Types\Color</Filter>
+    </None>
+    <None Include="Types\Color\Color8.inl">
+      <Filter>Types\Color</Filter>
+    </None>
+    <None Include="Controls\Textbox\Resources\Text.cur">
+      <Filter>Controls\Textbox\Resources</Filter>
+    </None>
+    <None Include="Resources\Cursors\Add.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Adjust.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Aim.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Complete.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Dot.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\DotLarge.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Ghost.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\HandNormal.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\HandPressed.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Magnify.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Move.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Normal.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\Remove.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateB.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateBL.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateBR.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateL.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateR.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateT.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateTL.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\RotateTR.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\ScaleBLTR.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\ScaleLR.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\ScaleTB.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+    <None Include="Resources\Cursors\ScaleTLBR.cur">
+      <Filter>Resources\Cursors</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Operators\Image\OpCrop\Resources\BL.bmp">
+      <Filter>Operators\Image\OpCrop\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpCrop\Resources\BR.bmp">
+      <Filter>Operators\Image\OpCrop\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpCrop\Resources\TL.bmp">
+      <Filter>Operators\Image\OpCrop\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpCrop\Resources\TR.bmp">
+      <Filter>Operators\Image\OpCrop\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpResize\Resources\Proportional.bmp">
+      <Filter>Operators\Image\OpResize\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\Control.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\Create.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\ShapeEllipse.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\ShapePolygon.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\ShapeRect.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\Transform.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\VertexBroken.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\VertexFixed.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\VertexMixed.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Operators\Image\OpShape\Resources\VertexSliding.bmp">
+      <Filter>Operators\Image\OpShape\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Button\Resources\Button.bmp">
+      <Filter>Controls\Button\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Button\Resources\ButtonFocus.bmp">
+      <Filter>Controls\Button\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Button\Resources\ButtonHighlight.bmp">
+      <Filter>Controls\Button\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Button\Resources\ButtonPressed.bmp">
+      <Filter>Controls\Button\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Button\Resources\ButtonSelected.bmp">
+      <Filter>Controls\Button\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\ConnectedCircle.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\ConnectionArrow.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\ConnectionPlus.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\ConnectionRing.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\Operator.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\OperatorActive.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\TreeView\Resources\OperatorShown.bmp">
+      <Filter>Controls\Views\TreeView\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\Resources\Zoom.bmp">
+      <Filter>Controls\Views\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\Resources\Zoom100.bmp">
+      <Filter>Controls\Views\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\Resources\ZoomDown2.bmp">
+      <Filter>Controls\Views\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\Resources\ZoomFit.bmp">
+      <Filter>Controls\Views\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\Resources\ZoomHover.bmp">
+      <Filter>Controls\Views\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Views\Resources\ZoomUp2.bmp">
+      <Filter>Controls\Views\Resources</Filter>
+    </Image>
+    <Image Include="Controls\HoverButton\Resources\HoverButtonBack.bmp">
+      <Filter>Controls\HoverButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\HoverButton\Resources\HoverButtonHighlight.bmp">
+      <Filter>Controls\HoverButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\HoverButton\Resources\HoverButtonHover.bmp">
+      <Filter>Controls\HoverButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\HoverButton\Resources\HoverButtonPressed.bmp">
+      <Filter>Controls\HoverButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueboxAbsolute.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowDown.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowLeft.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowRight.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueboxArrowUp.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueboxShadowL.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Valuebox\Resources\ValueBoxShadowR.bmp">
+      <Filter>Controls\Valuebox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Textbox\Resources\SelectionShadow.bmp">
+      <Filter>Controls\Textbox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Textbox\Resources\TextBoxBorder.bmp">
+      <Filter>Controls\Textbox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\Textbox\Resources\TextboxFocus.bmp">
+      <Filter>Controls\Textbox\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorFan\Resources\SatVal.bmp">
+      <Filter>Controls\ColorFan\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ListButton\Resources\Expands.bmp">
+      <Filter>Controls\ListButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ListButton\Resources\StripNeck.bmp">
+      <Filter>Controls\ListButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\Expands.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\Eyedropper.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\Fan.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\RoundButton.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\RoundButtonPressed.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\Sliders.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Controls\ColorButton\Resources\StripNeck.bmp">
+      <Filter>Controls\ColorButton\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Play.ico">
+      <Filter>Resources\Icons</Filter>
+    </Image>
+    <Image Include="Interface\PlayWindow\Resources\Files.bmp">
+      <Filter>Interface\PlayWindow\Resources</Filter>
+    </Image>
+    <Image Include="Interface\PlayWindow\Resources\Redo.bmp">
+      <Filter>Interface\PlayWindow\Resources</Filter>
+    </Image>
+    <Image Include="Interface\PlayWindow\Resources\Tree.bmp">
+      <Filter>Interface\PlayWindow\Resources</Filter>
+    </Image>
+    <Image Include="Interface\PlayWindow\Resources\Undo.bmp">
+      <Filter>Interface\PlayWindow\Resources</Filter>
+    </Image>
+    <Image Include="Interface\PlayWindow\Resources\View.bmp">
+      <Filter>Interface\PlayWindow\Resources</Filter>
+    </Image>
+    <Image Include="Interface\Sidebar\Resources\Shadow.bmp">
+      <Filter>Interface\Sidebar\Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Play.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Operators\Image\OpColor\OpColor.h">
+      <Filter>Operators\Image\OpColor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpCrop\OpCrop.h">
+      <Filter>Operators\Image\OpCrop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpResize\OpResize.h">
+      <Filter>Operators\Image\OpResize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpNoise\OpNoise.h">
+      <Filter>Operators\Image\OpNoise</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpOpacity\OpOpacity.h">
+      <Filter>Operators\Image\OpOpacity</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpFilter\OpFilter.h">
+      <Filter>Operators\Image\OpFilter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpPaint\OpPaint.h">
+      <Filter>Operators\Image\OpPaint</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpGradient\OpGradient.h">
+      <Filter>Operators\Image\OpGradient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpImage\OpImage.h">
+      <Filter>Operators\Image\OpImage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpMultiply\OpMultiply.h">
+      <Filter>Operators\Image\OpMultiply</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpOver\OpOver.h">
+      <Filter>Operators\Image\OpOver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpMove\OpMove.h">
+      <Filter>Operators\Image\OpMove</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\OpShape.h">
+      <Filter>Operators\Image\OpShape</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\ControlTool.h">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\CreateTool.h">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\ShapeTool.h">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpShape\Tools\TransformTool.h">
+      <Filter>Operators\Image\OpShape\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpAdd\OpAdd.h">
+      <Filter>Operators\Image\OpAdd</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpSubtract\OpSubtract.h">
+      <Filter>Operators\Image\OpSubtract</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpBrightness\OpBrightness.h">
+      <Filter>Operators\Image\OpBrightness</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpGamma\OpGamma.h">
+      <Filter>Operators\Image\OpGamma</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpSaturation\OpSaturation.h">
+      <Filter>Operators\Image\OpSaturation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpContrast\OpContrast.h">
+      <Filter>Operators\Image\OpContrast</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpPremultiply\OpPremultiply.h">
+      <Filter>Operators\Image\OpPremultiply</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpUnpremultiply\OpUnpremultiply.h">
+      <Filter>Operators\Image\OpUnpremultiply</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpThreshold\OpThreshold.h">
+      <Filter>Operators\Image\OpThreshold</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpColorRange\OpChromaRange.h">
+      <Filter>Operators\Image\OpColorRange</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpHSV\OpHSV.h">
+      <Filter>Operators\Image\OpHSV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Image\OpChannels\OpChannels.h">
+      <Filter>Operators\Image\OpChannels</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\Text\OpText\OpText.h">
+      <Filter>Operators\Text\OpText</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\OpFile\OpFile.h">
+      <Filter>Operators\OpFile</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Operators\OpNull\OpNull.h">
+      <Filter>Operators\OpNull</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\Control.h">
+      <Filter>Controls</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\Window\Window.h">
+      <Filter>Controls\Window</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\Window\WindowFrame.h">
+      <Filter>Controls\Window</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\Grip\Grip.h">
+      <Filter>Controls\Grip</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\Views\ShapeView\ShapeView.h">
+      <Filter>Controls\Views\ShapeView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Devices\Screen\Screen.h">
+      <Filter>Devices\Screen</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Clipboard\Clipboard.h">
+      <Filter>Clipboard</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{0E267872-1134-4629-90B7-03206C9BFE64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Play", "Play.vcxproj", "{53A753C5-39BD-497C-B7F7-1199AE70C2E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "Dependencies\libjpeg\libjpeg.vcxproj", "{5FEE0218-9780-412E-8787-53A6A14FBCE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "Dependencies\libpng\libpng.vcxproj", "{6DD46C32-D652-4D7E-8AD6-107BD6015C91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtiff", "Dependencies\libtiff\libtiff.vcxproj", "{4893C66C-2BC7-43B1-B007-BBE124572F0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "Dependencies\zlib\zlib.vcxproj", "{6276CFA7-C7F5-478C-BE97-BB4F8743C0A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A753C5-39BD-497C-B7F7-1199AE70C2E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53A753C5-39BD-497C-B7F7-1199AE70C2E8}.Debug|Win32.Build.0 = Debug|Win32
+		{53A753C5-39BD-497C-B7F7-1199AE70C2E8}.Release|Win32.ActiveCfg = Release|Win32
+		{53A753C5-39BD-497C-B7F7-1199AE70C2E8}.Release|Win32.Build.0 = Release|Win32
+		{5FEE0218-9780-412E-8787-53A6A14FBCE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FEE0218-9780-412E-8787-53A6A14FBCE8}.Debug|Win32.Build.0 = Debug|Win32
+		{5FEE0218-9780-412E-8787-53A6A14FBCE8}.Release|Win32.ActiveCfg = Release|Win32
+		{5FEE0218-9780-412E-8787-53A6A14FBCE8}.Release|Win32.Build.0 = Release|Win32
+		{6DD46C32-D652-4D7E-8AD6-107BD6015C91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DD46C32-D652-4D7E-8AD6-107BD6015C91}.Debug|Win32.Build.0 = Debug|Win32
+		{6DD46C32-D652-4D7E-8AD6-107BD6015C91}.Release|Win32.ActiveCfg = Release|Win32
+		{6DD46C32-D652-4D7E-8AD6-107BD6015C91}.Release|Win32.Build.0 = Release|Win32
+		{4893C66C-2BC7-43B1-B007-BBE124572F0A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4893C66C-2BC7-43B1-B007-BBE124572F0A}.Debug|Win32.Build.0 = Debug|Win32
+		{4893C66C-2BC7-43B1-B007-BBE124572F0A}.Release|Win32.ActiveCfg = Release|Win32
+		{4893C66C-2BC7-43B1-B007-BBE124572F0A}.Release|Win32.Build.0 = Release|Win32
+		{6276CFA7-C7F5-478C-BE97-BB4F8743C0A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6276CFA7-C7F5-478C-BE97-BB4F8743C0A0}.Debug|Win32.Build.0 = Debug|Win32
+		{6276CFA7-C7F5-478C-BE97-BB4F8743C0A0}.Release|Win32.ActiveCfg = Release|Win32
+		{6276CFA7-C7F5-478C-BE97-BB4F8743C0A0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FEE0218-9780-412E-8787-53A6A14FBCE8} = {0E267872-1134-4629-90B7-03206C9BFE64}
+		{6DD46C32-D652-4D7E-8AD6-107BD6015C91} = {0E267872-1134-4629-90B7-03206C9BFE64}
+		{4893C66C-2BC7-43B1-B007-BBE124572F0A} = {0E267872-1134-4629-90B7-03206C9BFE64}
+		{6276CFA7-C7F5-478C-BE97-BB4F8743C0A0} = {0E267872-1134-4629-90B7-03206C9BFE64}
+	EndGlobalSection
+EndGlobal
